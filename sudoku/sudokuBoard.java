@@ -2,7 +2,7 @@ package suduku;
 
 public class sudokuBoard {
 
-    // Change the board to your liking / the game
+    // Change the board to your liking or the game you're solving right now
     // This is just a template i made myself up
     char[][] sudokuBoard = {
             {'.', '.', '.', '.', '7', '.', '1', '.', '.'},
