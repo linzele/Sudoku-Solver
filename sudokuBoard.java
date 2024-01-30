@@ -1,7 +1,7 @@
-package suduku;
-
 public class sudokuBoard {
 
+    // Change the board to your liking / the game
+    // This is just a template i made myself up
     char[][] sudokuBoard = {
             {'.', '.', '.', '.', '7', '.', '1', '.', '.'},
             {'4', '.', '5', '.', '.', '.', '.', '.', '.'},
@@ -25,12 +25,14 @@ public class sudokuBoard {
                 System.out.print(sudokuBoard[i][j] + " ");
                 if ((j + 1) % 3 == 0 && j != 8) {
                     System.out.print("| "); // Add vertical separators between 3x3 subgrids
+            // Amend the design to your liking
                 }
             }
             System.out.println();
 
             if ((i + 1) % 3 == 0 && i != 8) {
                 System.out.println("---------------------"); // Add horizontal separators between 3x3 subgrids
+                // Amend the design to your liking
             }
         }
     }
