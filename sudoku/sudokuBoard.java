@@ -1,4 +1,4 @@
-package suduku;
+package sudoku;
 
 public class sudokuBoard {
 
