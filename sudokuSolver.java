@@ -2,16 +2,10 @@ package suduku;
 
 public class sudokuSolver {
     public static void main(String[] args) {
-        // Create a Sudoku board to solve
         
         sudokuBoard sudokuBoard = new sudokuBoard();
-
-
-        // Solve the Sudoku puzzle
-        solveSudoku(sudokuBoard.sudokuBoard);
-
-        // Display the solved Sudoku board
         sudokuBoard.displaySudokuBoard();
+        solveSudoku(sudokuBoard.sudokuBoard);
     
     }
 
@@ -39,7 +33,7 @@ public class sudokuSolver {
             }
         }
 
-        return true;  // All cells are filled, the puzzle is solved
+        return true;  // All cells are filled == the puzzle is solved
     }
 
     private static boolean isValid(char[][] board, int row, int col, char c) {
